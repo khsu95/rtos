@@ -32,6 +32,9 @@
  */
 #include "aws_clientcredential_keys.h"
 
+#define IOTEndpoint
+#define IOTThingName
+
 /*
  * MQTT Broker endpoint.
  */
@@ -40,7 +43,7 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a2rx24fjryl339-ats.i
 
 /* Use of a "define" and not a "static const" here to be able to
 * use pre-compile concatenation on the string. */
-#define clientcredentialIOT_THING_NAME "espressifBoard"
+#define clientcredentialIOT_THING_NAME "EE"
 
 /*
  * Port number the MQTT broker is using.
@@ -56,12 +59,12 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a2rx24fjryl339-ats.i
 /*
  * Wi-Fi network to join.
  */
-#define clientcredentialWIFI_SSID       "AndroidHotspot1637"
+#define clientcredentialWIFI_SSID       "goodbro"
 
 /*
  * Password needed to join Wi-Fi network.
  */
-#define clientcredentialWIFI_PASSWORD   "kimhs768"
+#define clientcredentialWIFI_PASSWORD   "20180111"
 
 /**
  * @brief Security type
