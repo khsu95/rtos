@@ -59,12 +59,12 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a2rx24fjryl339-ats.i
 /*
  * Wi-Fi network to join.
  */
-#define clientcredentialWIFI_SSID       "goodbro"
+#define clientcredentialWIFI_SSID "AndroidHotspot1637"
 
 /*
  * Password needed to join Wi-Fi network.
  */
-#define clientcredentialWIFI_PASSWORD   "20180111"
+#define clientcredentialWIFI_PASSWORD "kimhs768"
 
 /**
  * @brief Security type
@@ -72,6 +72,6 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a2rx24fjryl339-ats.i
  * Possible values are - eWiFiSecurityOpen, eWiFiSecurityWEP, eWiFiSecurityWPA,
  * eWiFiSecurityWPA2
  */
-#define clientcredentialWIFI_SECURITY   eWiFiSecurityWPA2
+#define clientcredentialWIFI_SECURITY eWiFiSecurityWPA2
 
 #endif
