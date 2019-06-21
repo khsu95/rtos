@@ -1,7 +1,7 @@
 {
     "afr_source_dir":"../..",
-    "thing_name":"espressifBoard",
-    "wifi_ssid":"goodbro",
-    "wifi_password":"20180111",
+    "thing_name":"EE",
+    "wifi_ssid":"AndroidHotspot1637",
+    "wifi_password":"kimhs768",
     "wifi_security":"eWiFiSecurityWPA2"
 }
