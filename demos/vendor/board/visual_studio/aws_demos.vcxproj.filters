@@ -444,6 +444,9 @@
     <ClCompile Include="..\..\..\..\lib\third_party\mbedtls\library\platform_util.c">
       <Filter>lib\third_party\mbedtls</Filter>
     </ClCompile>
+    <ClCompile Include="mqtt_wifi.c">
+      <Filter>application_code\common_demos\source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\lib\third_party\jsmn\jsmn.h">

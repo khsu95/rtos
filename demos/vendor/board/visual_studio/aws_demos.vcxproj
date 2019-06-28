@@ -15,7 +15,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -197,6 +197,7 @@
     <ClCompile Include="..\..\..\common\tcp\aws_tcp_echo_client_separate_tasks.c" />
     <ClCompile Include="..\..\..\common\tcp\aws_tcp_echo_client_single_task.c" />
     <ClCompile Include="..\common\application_code\main.c" />
+    <ClCompile Include="mqtt_wifi.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\portable\Compiler\Arch\portmacro.h" />
